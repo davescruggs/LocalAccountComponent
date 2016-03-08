@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #OSX-specific exclusions
 .[dD][sS]_[sS]tore
 
@@ -16,3 +17,7 @@ mm.log
 #  execute anonymous functionality, while keeping named scripts
 apex-scripts/*
 !apex-scripts/*.cls
+=======
+.sass-cache/
+*.css.map
+>>>>>>> github/master
