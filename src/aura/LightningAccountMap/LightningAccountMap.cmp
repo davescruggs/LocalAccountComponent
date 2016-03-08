@@ -1,0 +1,32 @@
+<aura:component controller="AccountGeoExtension" implements="force:appHostable,flexipage:availableForAllPageTypes">
+
+    <aura:attribute name="accounts" type="Account[]"/>
+    <aura:attribute name="searchKey" type="String"/>
+    <aura:attribute name="maxDistance" type="integer" default="40"/>
+    <aura:attribute name="latitude" type="Decimal"/>
+    <aura:attribute name="longitude" type="Decimal"/>
+    <aura:attribute name="runningUser" type="User" />
+
+    <ltng:require styles="/resource/leaflet/leaflet.css" />
+    <ltng:require scripts="/resource/leaflet/leaflet.js"
+                  afterScriptsLoaded="{!c.jsLoaded}" />
+
+
+    <div>
+        <div class="wrapper">
+            <ui:inputText class="searchKey" keyup="{!c.searchKeyChange}" value="{!v.searchKey}"
+                    placeholder="Search..."/>
+        </div>
+    </div>
+
+    <div class="map" id="map"></div>
+	<div class="accountlist" id="accountlist">
+        <ul>
+            <aura:iteration var="account" items="{!v.accounts}">
+                <li>
+                    <c:LightningAccountListItem account="{!account}"/>
+                </li>
+            </aura:iteration>
+        </ul>
+    </div>
+</aura:component>

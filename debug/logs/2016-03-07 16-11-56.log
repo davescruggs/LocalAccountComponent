@@ -1,0 +1,811 @@
+36.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WORKFLOW,INFO
+13:11:55.0 (58161)|EXECUTION_STARTED
+13:11:55.0 (97231)|CODE_UNIT_STARTED|[EXTERNAL]|01p360000053AMn|BatchLatLongGenerator
+13:11:55.0 (817554)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:77
+13:11:55.0 (839149)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:10
+13:11:55.0 (842750)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:2
+13:11:55.0 (859811)|METHOD_ENTRY|[1]|01p360000053AMn|BatchLatLongGenerator.BatchLatLongGenerator()
+13:11:55.0 (871477)|STATEMENT_EXECUTE|[1]
+13:11:55.0 (882755)|STATEMENT_EXECUTE|[1]
+13:11:55.0 (891984)|METHOD_EXIT|[1]|BatchLatLongGenerator
+13:11:55.0 (899033)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+13:11:55.0 (919627)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:11
+13:11:55.0 (928599)|SYSTEM_METHOD_ENTRY|[15]|BatchableContextImpl.BatchableContextImpl()
+13:11:55.0 (932752)|STATEMENT_EXECUTE|[15]
+13:11:55.0 (941025)|SYSTEM_METHOD_EXIT|[15]|BatchableContextImpl
+13:11:55.0 (944333)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:12
+13:11:55.0 (977752)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:44
+13:11:55.0 (987961)|VARIABLE_SCOPE_BEGIN|[15]|this|BatchLatLongGenerator|true|false
+13:11:55.0 (1062483)|VARIABLE_ASSIGNMENT|[15]|this|{"query":"Select Id, Name, Bil (115 more) ..."}|0x3416201a
+13:11:55.0 (1068080)|VARIABLE_SCOPE_BEGIN|[15]|BC|Database.BatchableContext|true|false
+13:11:55.0 (1195101)|VARIABLE_ASSIGNMENT|[15]|BC|{"childJobId":"70736000006EcquAAC","jobId":"70736000006EcqaAAC"}|0x5c436aeb
+13:11:55.0 (1201479)|VARIABLE_SCOPE_BEGIN|[15]|scope|List<SObject>|true|false
+13:11:55.0 (1219717)|VARIABLE_ASSIGNMENT|[15]|scope|{"s":1,"v":"List of size 10 too large to display"}|0x4ae4f9f9
+13:11:55.0 (1231154)|STATEMENT_EXECUTE|[15]
+13:11:55.0 (1331504)|HEAP_ALLOCATE|[50]|Bytes:5
+13:11:55.0 (1362532)|HEAP_ALLOCATE|[56]|Bytes:5
+13:11:55.0 (1372956)|HEAP_ALLOCATE|[64]|Bytes:7
+13:11:55.0 (1400003)|HEAP_ALLOCATE|[17]|Bytes:5
+13:11:55.0 (1449340)|HEAP_ALLOCATE|[17]|Bytes:32
+13:11:55.0 (1463831)|VARIABLE_SCOPE_BEGIN|[17]|acc|Account|true|false
+13:11:55.0 (1492085)|VARIABLE_ASSIGNMENT|[17]|acc|{"s":1,"v":{"Id":"00136000008NvuGAAS","Name":"Niki Sullivan","BillingStreet":"216 Lindy Dr","BillingCity":"Las Vegas","BillingState":"NV","BillingCountry":"USA","BillingPostalCode":"89107"}}|0x16a4d11
+13:11:55.0 (1500601)|STATEMENT_EXECUTE|[17]
+13:11:55.0 (1503333)|STATEMENT_EXECUTE|[19]
+13:11:55.0 (1509628)|VARIABLE_SCOPE_BEGIN|[19]|address|String|false|false
+13:11:55.0 (1515924)|VARIABLE_ASSIGNMENT|[19]|address|""
+13:11:55.0 (1528835)|STATEMENT_EXECUTE|[21]
+13:11:55.0 (1531571)|STATEMENT_EXECUTE|[22]
+13:11:55.0 (1536366)|HEAP_ALLOCATE|[22]|Bytes:1
+13:11:55.0 (1554366)|HEAP_ALLOCATE|[22]|Bytes:13
+13:11:55.0 (1559440)|HEAP_ALLOCATE|[22]|Bytes:13
+13:11:55.0 (1566364)|VARIABLE_ASSIGNMENT|[22]|address|"216 Lindy Dr,"
+13:11:55.0 (1575776)|STATEMENT_EXECUTE|[24]
+13:11:55.0 (1578221)|STATEMENT_EXECUTE|[25]
+13:11:55.0 (1584999)|HEAP_ALLOCATE|[25]|Bytes:10
+13:11:55.0 (1589484)|HEAP_ALLOCATE|[25]|Bytes:23
+13:11:55.0 (1596758)|VARIABLE_ASSIGNMENT|[25]|address|"216 Lindy Dr,Las Veg (3 more) ..."
+13:11:55.0 (1604882)|STATEMENT_EXECUTE|[27]
+13:11:55.0 (1607222)|STATEMENT_EXECUTE|[28]
+13:11:55.0 (1613516)|HEAP_ALLOCATE|[28]|Bytes:3
+13:11:55.0 (1617889)|HEAP_ALLOCATE|[28]|Bytes:26
+13:11:55.0 (1624544)|VARIABLE_ASSIGNMENT|[28]|address|"216 Lindy Dr,Las Veg (6 more) ..."
+13:11:55.0 (1632192)|STATEMENT_EXECUTE|[30]
+13:11:55.0 (1634632)|STATEMENT_EXECUTE|[31]
+13:11:55.0 (1640934)|HEAP_ALLOCATE|[31]|Bytes:4
+13:11:55.0 (1645500)|HEAP_ALLOCATE|[31]|Bytes:30
+13:11:55.0 (1653038)|VARIABLE_ASSIGNMENT|[31]|address|"216 Lindy Dr,Las Veg (10 more) ..."
+13:11:55.0 (1661529)|STATEMENT_EXECUTE|[33]
+13:11:55.0 (1663853)|STATEMENT_EXECUTE|[34]
+13:11:55.0 (1670212)|HEAP_ALLOCATE|[34]|Bytes:6
+13:11:55.0 (1674757)|HEAP_ALLOCATE|[34]|Bytes:36
+13:11:55.0 (1681364)|VARIABLE_ASSIGNMENT|[34]|address|"216 Lindy Dr,Las Veg (16 more) ..."
+13:11:55.0 (1704648)|STATEMENT_EXECUTE|[37]
+13:11:55.0 (1707448)|STATEMENT_EXECUTE|[38]
+13:11:55.0 (1750938)|VARIABLE_SCOPE_BEGIN|[38]|req|System.HttpRequest|true|false
+13:11:55.0 (1799758)|VARIABLE_ASSIGNMENT|[38]|req|"System.HttpRequest[Endpoint=null, Method=null]"|0x7bbb66ba
+13:11:55.0 (1807289)|STATEMENT_EXECUTE|[40]
+13:11:55.0 (1811986)|HEAP_ALLOCATE|[40]|Bytes:5
+13:11:55.0 (1828138)|HEAP_ALLOCATE|[40]|Bytes:15
+13:11:55.0 (1840052)|SYSTEM_METHOD_ENTRY|[1]|EncodingUtil.EncodingUtil()
+13:11:55.0 (1844329)|STATEMENT_EXECUTE|[1]
+13:11:55.0 (1852489)|SYSTEM_METHOD_EXIT|[1]|EncodingUtil
+13:11:55.0 (1864404)|METHOD_ENTRY|[40]||System.EncodingUtil.urlEncode(String, String)
+13:11:55.0 (1911127)|METHOD_EXIT|[40]||System.EncodingUtil.urlEncode(String, String)
+13:11:55.0 (1922244)|VARIABLE_ASSIGNMENT|[40]|address|"216+Lindy+Dr%2CLas+V (26 more) ..."
+13:11:55.0 (1928175)|STATEMENT_EXECUTE|[41]
+13:11:55.0 (1931747)|HEAP_ALLOCATE|[41]|Bytes:57
+13:11:55.0 (1935082)|HEAP_ALLOCATE|[41]|Bytes:12
+13:11:55.0 (1944070)|HEAP_ALLOCATE|[41]|Bytes:115
+13:11:55.0 (1997231)|STATEMENT_EXECUTE|[42]
+13:11:55.0 (2002141)|HEAP_ALLOCATE|[42]|Bytes:3
+13:11:55.0 (2024741)|STATEMENT_EXECUTE|[43]
+13:11:55.0 (2044808)|VARIABLE_SCOPE_BEGIN|[43]|http|System.Http|true|false
+13:11:55.0 (2084815)|VARIABLE_ASSIGNMENT|[43]|http|"System.Http[]"|0x13ee8a2a
+13:11:55.0 (2091703)|STATEMENT_EXECUTE|[44]
+13:11:55.0 (2098716)|VARIABLE_SCOPE_BEGIN|[44]|res|System.HttpResponse|true|false
+13:11:55.0 (2106241)|VARIABLE_ASSIGNMENT|[44]|res|null|
+13:11:55.0 (2120810)|HEAP_ALLOCATE|[45]|Bytes:57
+13:11:55.0 (2132654)|SYSTEM_METHOD_ENTRY|[1]|Test.Test()
+13:11:55.0 (2136780)|STATEMENT_EXECUTE|[1]
+13:11:55.0 (2144678)|SYSTEM_METHOD_EXIT|[1]|Test
+13:11:55.0 (2153699)|METHOD_ENTRY|[45]||System.Test.isRunningTest()
+13:11:55.0 (2174586)|METHOD_EXIT|[45]||System.Test.isRunningTest()
+13:11:55.0 (2182276)|STATEMENT_EXECUTE|[45]
+13:11:55.0 (2184798)|STATEMENT_EXECUTE|[46]
+13:11:55.0 (2251374)|CALLOUT_REQUEST|[46]|System.HttpRequest[Endpoint=https://maps.googleapis.com/maps/api/geocode/xml?address=216+Lindy+Dr%2CLas+Vegas%2CNV%2CUSA%2C89107%2C&sensor=true, Method=GET]
+13:11:55.0 (16671712)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:743
+13:11:55.0 (16735615)|CALLOUT_RESPONSE|[46]|System.HttpResponse[Status=OK, StatusCode=200]
+13:11:55.0 (16749962)|HEAP_ALLOCATE|[46]|Bytes:314
+13:11:55.0 (16829665)|VARIABLE_ASSIGNMENT|[46]|res|"System.HttpResponse[Status=OK, StatusCode=200]"|0x40bf5f83
+13:11:55.0 (16843635)|STATEMENT_EXECUTE|[57]
+13:11:55.0 (16959218)|VARIABLE_SCOPE_BEGIN|[57]|doc|dom.Document|true|false
+13:11:55.0 (17000347)|VARIABLE_ASSIGNMENT|[57]|doc|"Document[]"|0x60117f98
+13:11:55.0 (17009841)|STATEMENT_EXECUTE|[59]
+13:11:55.0 (17037793)|VARIABLE_SCOPE_BEGIN|[59]|geocodeResponse|dom.XmlNode|true|false
+13:11:55.0 (17101165)|VARIABLE_ASSIGNMENT|[59]|geocodeResponse|"XMLNode[ELEMENT,GeocodeResponse,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n ,], XMLNode[ELEMENT,status,null,null,null,[XMLNode[TEXT,null,null,null,null,null,OVER_QUERY_LIMIT,]],null,], XMLNode[TEXT,null,null,null,null,null,\n ,], XMLNode[ELEMENT,error_message,null,null,null,[XMLNode[TEXT,null,null,null,null,null,You have exceeded your daily request quota for this API. We recommend registering for a key at the Google Developers Console: https://console.developers.google.com/,]],null,], XMLNode[TEXT,null,null,null,null,null,\n,]],null,]"|0x5afa151a
+13:11:55.0 (17115433)|STATEMENT_EXECUTE|[60]
+13:11:55.0 (17118243)|STATEMENT_EXECUTE|[62]
+13:11:55.0 (17123311)|HEAP_ALLOCATE|[62]|Bytes:6
+13:11:55.0 (17157214)|VARIABLE_SCOPE_BEGIN|[62]|result|dom.XmlNode|true|false
+13:11:55.0 (17166130)|VARIABLE_ASSIGNMENT|[62]|result|null|
+13:11:55.0 (17171641)|STATEMENT_EXECUTE|[63]
+13:11:55.0 (17191626)|HEAP_ALLOCATE|[17]|Bytes:5
+13:11:55.0 (17230052)|HEAP_ALLOCATE|[17]|Bytes:32
+13:11:55.0 (17241796)|VARIABLE_SCOPE_BEGIN|[17]|acc|Account|true|false
+13:11:55.0 (17273056)|VARIABLE_ASSIGNMENT|[17]|acc|{"s":1,"v":{"Id":"00136000008NvuHAAS","Name":"Open Source Inc.","BillingStreet":"600 Congress Avenue","BillingCity":"Austin","BillingState":"TX","BillingCountry":"USA","BillingPostalCode":"78701"}}|0x3da26bb5
+13:11:55.0 (17280839)|STATEMENT_EXECUTE|[17]
+13:11:55.0 (17283510)|STATEMENT_EXECUTE|[19]
+13:11:55.0 (17288109)|VARIABLE_SCOPE_BEGIN|[19]|address|String|false|false
+13:11:55.0 (17293835)|VARIABLE_ASSIGNMENT|[19]|address|""
+13:11:55.0 (17307752)|STATEMENT_EXECUTE|[21]
+13:11:55.0 (17310550)|STATEMENT_EXECUTE|[22]
+13:11:55.0 (17320318)|HEAP_ALLOCATE|[22]|Bytes:20
+13:11:55.0 (17325858)|HEAP_ALLOCATE|[22]|Bytes:20
+13:11:55.0 (17332199)|VARIABLE_ASSIGNMENT|[22]|address|"600 Congress Avenue,"
+13:11:55.0 (17340731)|STATEMENT_EXECUTE|[24]
+13:11:55.0 (17343232)|STATEMENT_EXECUTE|[25]
+13:11:55.0 (17349471)|HEAP_ALLOCATE|[25]|Bytes:7
+13:11:55.0 (17353806)|HEAP_ALLOCATE|[25]|Bytes:27
+13:11:55.0 (17361455)|VARIABLE_ASSIGNMENT|[25]|address|"600 Congress Avenue, (7 more) ..."
+13:11:55.0 (17369394)|STATEMENT_EXECUTE|[27]
+13:11:55.0 (17371917)|STATEMENT_EXECUTE|[28]
+13:11:55.0 (17377656)|HEAP_ALLOCATE|[28]|Bytes:3
+13:11:55.0 (17381890)|HEAP_ALLOCATE|[28]|Bytes:30
+13:11:55.0 (17388369)|VARIABLE_ASSIGNMENT|[28]|address|"600 Congress Avenue, (10 more) ..."
+13:11:55.0 (17395950)|STATEMENT_EXECUTE|[30]
+13:11:55.0 (17398364)|STATEMENT_EXECUTE|[31]
+13:11:55.0 (17404310)|HEAP_ALLOCATE|[31]|Bytes:4
+13:11:55.0 (17408874)|HEAP_ALLOCATE|[31]|Bytes:34
+13:11:55.0 (17415463)|VARIABLE_ASSIGNMENT|[31]|address|"600 Congress Avenue, (14 more) ..."
+13:11:55.0 (17423050)|STATEMENT_EXECUTE|[33]
+13:11:55.0 (17425481)|STATEMENT_EXECUTE|[34]
+13:11:55.0 (17431516)|HEAP_ALLOCATE|[34]|Bytes:6
+13:11:55.0 (17435863)|HEAP_ALLOCATE|[34]|Bytes:40
+13:11:55.0 (17442020)|VARIABLE_ASSIGNMENT|[34]|address|"600 Congress Avenue, (20 more) ..."
+13:11:55.0 (17455732)|STATEMENT_EXECUTE|[37]
+13:11:55.0 (17458333)|STATEMENT_EXECUTE|[38]
+13:11:55.0 (17475671)|VARIABLE_SCOPE_BEGIN|[38]|req|System.HttpRequest|true|false
+13:11:55.0 (17515779)|VARIABLE_ASSIGNMENT|[38]|req|"System.HttpRequest[Endpoint=null, Method=null]"|0x7db68c5
+13:11:55.0 (17523112)|STATEMENT_EXECUTE|[40]
+13:11:55.0 (17539676)|METHOD_ENTRY|[40]||System.EncodingUtil.urlEncode(String, String)
+13:11:55.0 (17595702)|METHOD_EXIT|[40]||System.EncodingUtil.urlEncode(String, String)
+13:11:55.0 (17605997)|VARIABLE_ASSIGNMENT|[40]|address|"600+Congress+Avenue% (30 more) ..."
+13:11:55.0 (17614698)|STATEMENT_EXECUTE|[41]
+13:11:55.0 (17623304)|HEAP_ALLOCATE|[41]|Bytes:119
+13:11:55.0 (17645094)|STATEMENT_EXECUTE|[42]
+13:11:55.0 (17657024)|STATEMENT_EXECUTE|[43]
+13:11:55.0 (17668330)|VARIABLE_SCOPE_BEGIN|[43]|http|System.Http|true|false
+13:11:55.0 (17705015)|VARIABLE_ASSIGNMENT|[43]|http|"System.Http[]"|0x6605a04d
+13:11:55.0 (17711730)|STATEMENT_EXECUTE|[44]
+13:11:55.0 (17715559)|VARIABLE_SCOPE_BEGIN|[44]|res|System.HttpResponse|true|false
+13:11:55.0 (17721375)|VARIABLE_ASSIGNMENT|[44]|res|null|
+13:11:55.0 (17730215)|METHOD_ENTRY|[45]||System.Test.isRunningTest()
+13:11:55.0 (17741609)|METHOD_EXIT|[45]||System.Test.isRunningTest()
+13:11:55.0 (17748430)|STATEMENT_EXECUTE|[45]
+13:11:55.0 (17750907)|STATEMENT_EXECUTE|[46]
+13:11:55.0 (20072430)|CALLOUT_REQUEST|[46]|System.HttpRequest[Endpoint=https://maps.googleapis.com/maps/api/geocode/xml?address=600+Congress+Avenue%2CAustin%2CTX%2CUSA%2C78701%2C&sensor=true, Method=GET]
+13:11:55.0 (174289641)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:2600
+13:11:55.0 (174398444)|CALLOUT_RESPONSE|[46]|System.HttpResponse[Status=OK, StatusCode=200]
+13:11:55.0 (174420941)|HEAP_ALLOCATE|[46]|Bytes:2189
+13:11:55.0 (174539607)|VARIABLE_ASSIGNMENT|[46]|res|"System.HttpResponse[Status=OK, StatusCode=200]"|0x72586727
+13:11:55.0 (174556373)|STATEMENT_EXECUTE|[57]
+13:11:55.0 (174814241)|VARIABLE_SCOPE_BEGIN|[57]|doc|dom.Document|true|false
+13:11:55.0 (174852688)|VARIABLE_ASSIGNMENT|[57]|doc|"Document[]"|0x4b0326bb
+13:11:55.0 (174861045)|STATEMENT_EXECUTE|[59]
+13:11:55.0 (174886196)|VARIABLE_SCOPE_BEGIN|[59]|geocodeResponse|dom.XmlNode|true|false
+13:11:55.0 (175296374)|VARIABLE_ASSIGNMENT|[59]|geocodeResponse|"XMLNode[ELEMENT,GeocodeResponse,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n ,], XMLNode[ELEMENT,status,null,null,null,[XMLNode[TEXT,null,null,null,null,null,OK,]],null,], XMLNode[TEXT,null,null,null,null,null,\n ,], XMLNode[ELEMENT,result,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,premise,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,formatted_address,null,null,null,[XMLNode[TEXT,null,null,null,null,null,600 Congress Ave, Austin, TX 78701, USA,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,600,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,600,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,street_number,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Congress Avenue,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Congress Ave,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,route,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Congress Avenue Historic District,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Congress Avenue Historic District,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,neighborhood,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,political,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Austin,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Austin,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,locality,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,political,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Travis County,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Travis County,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,administrative_area_level_2,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,political,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Texas,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,TX,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,administrative_area_level_1,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,political,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,United States,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,US,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,country,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,political,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,78701,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,78701,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,postal_code,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,geometry,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,location,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,30.2686031,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-97.7432016,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,location_type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,ROOFTOP,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,viewport,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,southwest,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,30.2672541,]],null,], XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-97.7445506,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,northeast,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,30.2699521,]],null,], XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-97.7418526,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,bounds,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,southwest,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,30.2682174,]],null,], XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-97.7436722,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,northeast,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,30.2689888,]],null,], XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-97.7427310,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,place_id,null,null,null,[XMLNode[TEXT,null,null,null,null,null,ChIJHZE4vgm1RIYRPnzQ4Q2y92E,]],null,], XMLNode[TEXT,null,null,null,null,null,\n ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n,]],null,]"|0x45c22b90
+13:11:55.0 (175357588)|STATEMENT_EXECUTE|[60]
+13:11:55.0 (175360760)|STATEMENT_EXECUTE|[62]
+13:11:55.0 (175386126)|VARIABLE_SCOPE_BEGIN|[62]|result|dom.XmlNode|true|false
+13:11:55.0 (175741618)|VARIABLE_ASSIGNMENT|[62]|result|"XMLNode[ELEMENT,result,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,premise,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,formatted_address,null,null,null,[XMLNode[TEXT,null,null,null,null,null,600 Congress Ave, Austin, TX 78701, USA,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,600,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,600,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,street_number,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Congress Avenue,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Congress Ave,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,route,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Congress Avenue Historic District,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Congress Avenue Historic District,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,neighborhood,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,political,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Austin,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Austin,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,locality,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,political,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Travis County,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Travis County,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,administrative_area_level_2,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,political,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Texas,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,TX,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,administrative_area_level_1,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,political,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,United States,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,US,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,country,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,political,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,78701,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,78701,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,postal_code,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,geometry,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,location,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,30.2686031,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-97.7432016,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,location_type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,ROOFTOP,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,viewport,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,southwest,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,30.2672541,]],null,], XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-97.7445506,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,northeast,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,30.2699521,]],null,], XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-97.7418526,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,bounds,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,southwest,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,30.2682174,]],null,], XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-97.7436722,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,northeast,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,30.2689888,]],null,], XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-97.7427310,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,place_id,null,null,null,[XMLNode[TEXT,null,null,null,null,null,ChIJHZE4vgm1RIYRPnzQ4Q2y92E,]],null,], XMLNode[TEXT,null,null,null,null,null,\n ,]],null,]"|0x6d081f32
+13:11:55.0 (175788395)|STATEMENT_EXECUTE|[63]
+13:11:55.0 (175791212)|STATEMENT_EXECUTE|[65]
+13:11:55.0 (175796633)|HEAP_ALLOCATE|[65]|Bytes:8
+13:11:55.0 (175840191)|VARIABLE_SCOPE_BEGIN|[65]|geometry|dom.XmlNode|true|false
+13:11:55.0 (175981785)|VARIABLE_ASSIGNMENT|[65]|geometry|"XMLNode[ELEMENT,geometry,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,location,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,30.2686031,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-97.7432016,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,location_type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,ROOFTOP,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,viewport,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,southwest,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,30.2672541,]],null,], XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-97.7445506,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,northeast,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,30.2699521,]],null,], XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-97.7418526,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,bounds,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,southwest,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,30.2682174,]],null,], XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-97.7436722,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,northeast,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,30.2689888,]],null,], XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-97.7427310,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,]"|0x5c583ceb
+13:11:55.0 (176002463)|STATEMENT_EXECUTE|[66]
+13:11:55.0 (176006219)|STATEMENT_EXECUTE|[68]
+13:11:55.0 (176010858)|HEAP_ALLOCATE|[68]|Bytes:8
+13:11:55.0 (176038092)|VARIABLE_SCOPE_BEGIN|[68]|location|dom.XmlNode|true|false
+13:11:55.0 (176082417)|VARIABLE_ASSIGNMENT|[68]|location|"XMLNode[ELEMENT,location,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,30.2686031,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-97.7432016,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,]],null,]"|0xe3cef25
+13:11:55.0 (176092803)|STATEMENT_EXECUTE|[69]
+13:11:55.0 (176095304)|STATEMENT_EXECUTE|[71]
+13:11:55.0 (176099495)|HEAP_ALLOCATE|[71]|Bytes:3
+13:11:55.0 (176140241)|HEAP_ALLOCATE|[71]|Bytes:10
+13:11:55.0 (176147390)|VARIABLE_SCOPE_BEGIN|[71]|lat|String|false|false
+13:11:55.0 (176156664)|VARIABLE_ASSIGNMENT|[71]|lat|"30.2686031"
+13:11:55.0 (176161854)|STATEMENT_EXECUTE|[72]
+13:11:55.0 (176165865)|HEAP_ALLOCATE|[72]|Bytes:3
+13:11:55.0 (176193338)|HEAP_ALLOCATE|[72]|Bytes:11
+13:11:55.0 (176199293)|VARIABLE_SCOPE_BEGIN|[72]|lng|String|false|false
+13:11:55.0 (176205769)|VARIABLE_ASSIGNMENT|[72]|lng|"-97.7432016"
+13:11:55.0 (176210634)|STATEMENT_EXECUTE|[73]
+13:11:55.0 (176213156)|STATEMENT_EXECUTE|[73]
+13:11:55.0 (176215309)|STATEMENT_EXECUTE|[74]
+13:11:55.0 (176296332)|HEAP_ALLOCATE|[74]|Bytes:28
+13:11:55.0 (176373781)|HEAP_ALLOCATE|[74]|Bytes:-4
+13:11:55.0 (176397256)|VARIABLE_ASSIGNMENT|[74]|this.BillingLatitude|30.2686031|0x3da26bb5
+13:11:55.0 (176404075)|STATEMENT_EXECUTE|[75]
+13:11:55.0 (176423738)|HEAP_ALLOCATE|[75]|Bytes:28
+13:11:55.0 (176457617)|HEAP_ALLOCATE|[75]|Bytes:-4
+13:11:55.0 (176469599)|VARIABLE_ASSIGNMENT|[75]|this.BillingLongitude|-97.7432016|0x3da26bb5
+13:11:55.0 (176490375)|HEAP_ALLOCATE|[17]|Bytes:5
+13:11:55.0 (176513697)|HEAP_ALLOCATE|[17]|Bytes:32
+13:11:55.0 (176524949)|VARIABLE_SCOPE_BEGIN|[17]|acc|Account|true|false
+13:11:55.0 (176558001)|VARIABLE_ASSIGNMENT|[17]|acc|{"s":1,"v":{"Id":"00136000008NvuIAAS","Name":"Opportunity Resource (5 more) ...","BillingStreet":"400 North Robinson S (5 more) ...","BillingCity":"Richmond","BillingState":"VA","BillingCountry":"USA","BillingPostalCode":"23220"}}|0x77aaae3a
+13:11:55.0 (176566757)|STATEMENT_EXECUTE|[17]
+13:11:55.0 (176569349)|STATEMENT_EXECUTE|[19]
+13:11:55.0 (176573562)|VARIABLE_SCOPE_BEGIN|[19]|address|String|false|false
+13:11:55.0 (176579381)|VARIABLE_ASSIGNMENT|[19]|address|""
+13:11:55.0 (176592762)|STATEMENT_EXECUTE|[21]
+13:11:55.0 (176595512)|STATEMENT_EXECUTE|[22]
+13:11:55.0 (176608897)|HEAP_ALLOCATE|[22]|Bytes:26
+13:11:55.0 (176613886)|HEAP_ALLOCATE|[22]|Bytes:26
+13:11:55.0 (176621062)|VARIABLE_ASSIGNMENT|[22]|address|"400 North Robinson S (6 more) ..."
+13:11:55.0 (176629775)|STATEMENT_EXECUTE|[24]
+13:11:55.0 (176632289)|STATEMENT_EXECUTE|[25]
+13:11:55.0 (176638487)|HEAP_ALLOCATE|[25]|Bytes:9
+13:11:55.0 (176642643)|HEAP_ALLOCATE|[25]|Bytes:35
+13:11:55.0 (176649000)|VARIABLE_ASSIGNMENT|[25]|address|"400 North Robinson S (15 more) ..."
+13:11:55.0 (176657071)|STATEMENT_EXECUTE|[27]
+13:11:55.0 (176659410)|STATEMENT_EXECUTE|[28]
+13:11:55.0 (176665280)|HEAP_ALLOCATE|[28]|Bytes:3
+13:11:55.0 (176669515)|HEAP_ALLOCATE|[28]|Bytes:38
+13:11:55.0 (176675706)|VARIABLE_ASSIGNMENT|[28]|address|"400 North Robinson S (18 more) ..."
+13:11:55.0 (176683356)|STATEMENT_EXECUTE|[30]
+13:11:55.0 (176685738)|STATEMENT_EXECUTE|[31]
+13:11:55.0 (176691722)|HEAP_ALLOCATE|[31]|Bytes:4
+13:11:55.0 (176695869)|HEAP_ALLOCATE|[31]|Bytes:42
+13:11:55.0 (176701984)|VARIABLE_ASSIGNMENT|[31]|address|"400 North Robinson S (22 more) ..."
+13:11:55.0 (176709683)|STATEMENT_EXECUTE|[33]
+13:11:55.0 (176712044)|STATEMENT_EXECUTE|[34]
+13:11:55.0 (176717985)|HEAP_ALLOCATE|[34]|Bytes:6
+13:11:55.0 (176722011)|HEAP_ALLOCATE|[34]|Bytes:48
+13:11:55.0 (176728159)|VARIABLE_ASSIGNMENT|[34]|address|"400 North Robinson S (28 more) ..."
+13:11:55.0 (176742027)|STATEMENT_EXECUTE|[37]
+13:11:55.0 (176744679)|STATEMENT_EXECUTE|[38]
+13:11:55.0 (176763253)|VARIABLE_SCOPE_BEGIN|[38]|req|System.HttpRequest|true|false
+13:11:55.0 (176804670)|VARIABLE_ASSIGNMENT|[38]|req|"System.HttpRequest[Endpoint=null, Method=null]"|0x6a087b40
+13:11:55.0 (176812200)|STATEMENT_EXECUTE|[40]
+13:11:55.0 (176829679)|METHOD_ENTRY|[40]||System.EncodingUtil.urlEncode(String, String)
+13:11:55.0 (176874713)|METHOD_EXIT|[40]||System.EncodingUtil.urlEncode(String, String)
+13:11:55.0 (176884883)|VARIABLE_ASSIGNMENT|[40]|address|"400+North+Robinson+S (38 more) ..."
+13:11:55.0 (176890171)|STATEMENT_EXECUTE|[41]
+13:11:55.0 (176898676)|HEAP_ALLOCATE|[41]|Bytes:127
+13:11:55.0 (176925398)|STATEMENT_EXECUTE|[42]
+13:11:55.0 (176937474)|STATEMENT_EXECUTE|[43]
+13:11:55.0 (176949176)|VARIABLE_SCOPE_BEGIN|[43]|http|System.Http|true|false
+13:11:55.0 (176985880)|VARIABLE_ASSIGNMENT|[43]|http|"System.Http[]"|0x6fe05f5d
+13:11:55.0 (176992649)|STATEMENT_EXECUTE|[44]
+13:11:55.0 (176996420)|VARIABLE_SCOPE_BEGIN|[44]|res|System.HttpResponse|true|false
+13:11:55.0 (177002653)|VARIABLE_ASSIGNMENT|[44]|res|null|
+13:11:55.0 (177013197)|METHOD_ENTRY|[45]||System.Test.isRunningTest()
+13:11:55.0 (177024993)|METHOD_EXIT|[45]||System.Test.isRunningTest()
+13:11:55.0 (177031879)|STATEMENT_EXECUTE|[45]
+13:11:55.0 (177034362)|STATEMENT_EXECUTE|[46]
+13:11:55.0 (179884450)|CALLOUT_REQUEST|[46]|System.HttpRequest[Endpoint=https://maps.googleapis.com/maps/api/geocode/xml?address=400+North+Robinson+Street%2CRichmond%2CVA%2CUSA%2C23220%2C&sensor=true, Method=GET]
+13:11:55.0 (334420854)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:2522
+13:11:55.0 (334515391)|CALLOUT_RESPONSE|[46]|System.HttpResponse[Status=OK, StatusCode=200]
+13:11:55.0 (334538265)|HEAP_ALLOCATE|[46]|Bytes:2111
+13:11:55.0 (334647839)|VARIABLE_ASSIGNMENT|[46]|res|"System.HttpResponse[Status=OK, StatusCode=200]"|0xdd993bc
+13:11:55.0 (334664102)|STATEMENT_EXECUTE|[57]
+13:11:55.0 (334919174)|VARIABLE_SCOPE_BEGIN|[57]|doc|dom.Document|true|false
+13:11:55.0 (334957236)|VARIABLE_ASSIGNMENT|[57]|doc|"Document[]"|0x221ed0fc
+13:11:55.0 (334965639)|STATEMENT_EXECUTE|[59]
+13:11:55.0 (334990427)|VARIABLE_SCOPE_BEGIN|[59]|geocodeResponse|dom.XmlNode|true|false
+13:11:55.0 (335386088)|VARIABLE_ASSIGNMENT|[59]|geocodeResponse|"XMLNode[ELEMENT,GeocodeResponse,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n ,], XMLNode[ELEMENT,status,null,null,null,[XMLNode[TEXT,null,null,null,null,null,OK,]],null,], XMLNode[TEXT,null,null,null,null,null,\n ,], XMLNode[ELEMENT,result,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,premise,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,formatted_address,null,null,null,[XMLNode[TEXT,null,null,null,null,null,400 N Robinson St, Richmond, VA 23220, USA,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,400,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,400,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,street_number,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,North Robinson Street,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,N Robinson St,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,route,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Fan District,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Fan District,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,neighborhood,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,political,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Richmond,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Richmond,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,locality,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,political,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Virginia,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,VA,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,administrative_area_level_1,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,political,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,United States,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,US,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,country,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,political,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,23220,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,23220,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,postal_code,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,3324,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,3324,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,postal_code_suffix,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,geometry,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,location,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,37.5565649,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-77.4708848,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,location_type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,ROOFTOP,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,viewport,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,southwest,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,37.5552159,]],null,], XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-77.4722337,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,northeast,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,37.5579139,]],null,], XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-77.4695358,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,bounds,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,southwest,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,37.5564537,]],null,], XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-77.4710374,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,northeast,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,37.5566761,]],null,], XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-77.4707321,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,place_id,null,null,null,[XMLNode[TEXT,null,null,null,null,null,ChIJEZIO8v0TsYkRElW6u22VkuU,]],null,], XMLNode[TEXT,null,null,null,null,null,\n ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n,]],null,]"|0x5d990d51
+13:11:55.0 (335435729)|STATEMENT_EXECUTE|[60]
+13:11:55.0 (335439075)|STATEMENT_EXECUTE|[62]
+13:11:55.0 (335464544)|VARIABLE_SCOPE_BEGIN|[62]|result|dom.XmlNode|true|false
+13:11:55.0 (335807374)|VARIABLE_ASSIGNMENT|[62]|result|"XMLNode[ELEMENT,result,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,premise,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,formatted_address,null,null,null,[XMLNode[TEXT,null,null,null,null,null,400 N Robinson St, Richmond, VA 23220, USA,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,400,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,400,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,street_number,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,North Robinson Street,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,N Robinson St,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,route,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Fan District,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Fan District,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,neighborhood,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,political,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Richmond,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Richmond,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,locality,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,political,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,Virginia,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,VA,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,administrative_area_level_1,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,political,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,United States,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,US,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,country,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,political,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,23220,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,23220,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,postal_code,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,address_component,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,long_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,3324,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,short_name,null,null,null,[XMLNode[TEXT,null,null,null,null,null,3324,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,postal_code_suffix,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,geometry,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,location,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,37.5565649,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-77.4708848,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,location_type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,ROOFTOP,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,viewport,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,southwest,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,37.5552159,]],null,], XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-77.4722337,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,northeast,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,37.5579139,]],null,], XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-77.4695358,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,bounds,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,southwest,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,37.5564537,]],null,], XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-77.4710374,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,northeast,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,37.5566761,]],null,], XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-77.4707321,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,], XMLNode[ELEMENT,place_id,null,null,null,[XMLNode[TEXT,null,null,null,null,null,ChIJEZIO8v0TsYkRElW6u22VkuU,]],null,], XMLNode[TEXT,null,null,null,null,null,\n ,]],null,]"|0x2cd44f56
+13:11:55.0 (335857097)|STATEMENT_EXECUTE|[63]
+13:11:55.0 (335860463)|STATEMENT_EXECUTE|[65]
+13:11:55.0 (335881443)|VARIABLE_SCOPE_BEGIN|[65]|geometry|dom.XmlNode|true|false
+13:11:55.0 (336011258)|VARIABLE_ASSIGNMENT|[65]|geometry|"XMLNode[ELEMENT,geometry,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,location,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,37.5565649,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-77.4708848,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,location_type,null,null,null,[XMLNode[TEXT,null,null,null,null,null,ROOFTOP,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,viewport,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,southwest,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,37.5552159,]],null,], XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-77.4722337,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,northeast,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,37.5579139,]],null,], XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-77.4695358,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,], XMLNode[ELEMENT,bounds,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,southwest,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,37.5564537,]],null,], XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-77.4710374,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,northeast,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,37.5566761,]],null,], XMLNode[TEXT,null,null,null,null,null,\n     ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-77.4707321,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,]],null,], XMLNode[TEXT,null,null,null,null,null,\n  ,]],null,]"|0x6dd16d03
+13:11:55.0 (336030417)|STATEMENT_EXECUTE|[66]
+13:11:55.0 (336033121)|STATEMENT_EXECUTE|[68]
+13:11:55.0 (336052851)|VARIABLE_SCOPE_BEGIN|[68]|location|dom.XmlNode|true|false
+13:11:55.0 (336095723)|VARIABLE_ASSIGNMENT|[68]|location|"XMLNode[ELEMENT,location,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,lat,null,null,null,[XMLNode[TEXT,null,null,null,null,null,37.5565649,]],null,], XMLNode[TEXT,null,null,null,null,null,\n    ,], XMLNode[ELEMENT,lng,null,null,null,[XMLNode[TEXT,null,null,null,null,null,-77.4708848,]],null,], XMLNode[TEXT,null,null,null,null,null,\n   ,]],null,]"|0x391cd975
+13:11:55.0 (336105213)|STATEMENT_EXECUTE|[69]
+13:11:55.0 (336107595)|STATEMENT_EXECUTE|[71]
+13:11:55.0 (336133395)|HEAP_ALLOCATE|[71]|Bytes:10
+13:11:55.0 (336140734)|VARIABLE_SCOPE_BEGIN|[71]|lat|String|false|false
+13:11:55.0 (336149905)|VARIABLE_ASSIGNMENT|[71]|lat|"37.5565649"
+13:11:55.0 (336154626)|STATEMENT_EXECUTE|[72]
+13:11:55.0 (336173061)|HEAP_ALLOCATE|[72]|Bytes:11
+13:11:55.0 (336178686)|VARIABLE_SCOPE_BEGIN|[72]|lng|String|false|false
+13:11:55.0 (336184600)|VARIABLE_ASSIGNMENT|[72]|lng|"-77.4708848"
+13:11:55.0 (336189181)|STATEMENT_EXECUTE|[73]
+13:11:55.0 (336191374)|STATEMENT_EXECUTE|[73]
+13:11:55.0 (336193338)|STATEMENT_EXECUTE|[74]
+13:11:55.0 (336231181)|HEAP_ALLOCATE|[74]|Bytes:28
+13:11:55.0 (336304114)|HEAP_ALLOCATE|[74]|Bytes:-4
+13:11:55.0 (336326785)|VARIABLE_ASSIGNMENT|[74]|this.BillingLatitude|37.5565649|0x77aaae3a
+13:11:55.0 (336333605)|STATEMENT_EXECUTE|[75]
+13:11:55.0 (336352131)|HEAP_ALLOCATE|[75]|Bytes:28
+13:11:55.0 (336384674)|HEAP_ALLOCATE|[75]|Bytes:-4
+13:11:55.0 (336396463)|VARIABLE_ASSIGNMENT|[75]|this.BillingLongitude|-77.4708848|0x77aaae3a
+13:11:55.0 (336423557)|HEAP_ALLOCATE|[17]|Bytes:5
+13:11:55.0 (336454971)|HEAP_ALLOCATE|[17]|Bytes:32
+13:11:55.0 (336467228)|VARIABLE_SCOPE_BEGIN|[17]|acc|Account|true|false
+13:11:55.0 (336496687)|VARIABLE_ASSIGNMENT|[17]|acc|{"s":1,"v":{"Id":"00136000008NvuJAAS","Name":"Optos Inc.","BillingStreet":"5546 Geary Blvd","BillingCity":"San Francisco","BillingState":"CA","BillingCountry":"USA","BillingPostalCode":"94121"}}|0x2cfab882
+13:11:55.0 (336504354)|STATEMENT_EXECUTE|[17]
+13:11:55.0 (336506879)|STATEMENT_EXECUTE|[19]
+13:11:55.0 (336511076)|VARIABLE_SCOPE_BEGIN|[19]|address|String|false|false
+13:11:55.0 (336516599)|VARIABLE_ASSIGNMENT|[19]|address|""
+13:11:55.0 (336530519)|STATEMENT_EXECUTE|[21]
+13:11:55.0 (336533253)|STATEMENT_EXECUTE|[22]
+13:11:55.0 (336545205)|HEAP_ALLOCATE|[22]|Bytes:16
+13:11:55.0 (336550326)|HEAP_ALLOCATE|[22]|Bytes:16
+13:11:55.0 (336556530)|VARIABLE_ASSIGNMENT|[22]|address|"5546 Geary Blvd,"
+13:11:55.0 (336564953)|STATEMENT_EXECUTE|[24]
+13:11:55.0 (336567358)|STATEMENT_EXECUTE|[25]
+13:11:55.0 (336573531)|HEAP_ALLOCATE|[25]|Bytes:14
+13:11:55.0 (336577684)|HEAP_ALLOCATE|[25]|Bytes:30
+13:11:55.0 (336585161)|VARIABLE_ASSIGNMENT|[25]|address|"5546 Geary Blvd,San  (10 more) ..."
+13:11:55.0 (336593004)|STATEMENT_EXECUTE|[27]
+13:11:55.0 (336595349)|STATEMENT_EXECUTE|[28]
+13:11:55.0 (336601089)|HEAP_ALLOCATE|[28]|Bytes:3
+13:11:55.0 (336605277)|HEAP_ALLOCATE|[28]|Bytes:33
+13:11:55.0 (336612095)|VARIABLE_ASSIGNMENT|[28]|address|"5546 Geary Blvd,San  (13 more) ..."
+13:11:55.0 (336619794)|STATEMENT_EXECUTE|[30]
+13:11:55.0 (336622130)|STATEMENT_EXECUTE|[31]
+13:11:55.0 (336628201)|HEAP_ALLOCATE|[31]|Bytes:4
+13:11:55.0 (336632393)|HEAP_ALLOCATE|[31]|Bytes:37
+13:11:55.0 (336638607)|VARIABLE_ASSIGNMENT|[31]|address|"5546 Geary Blvd,San  (17 more) ..."
+13:11:55.0 (336646072)|STATEMENT_EXECUTE|[33]
+13:11:55.0 (336648391)|STATEMENT_EXECUTE|[34]
+13:11:55.0 (336654511)|HEAP_ALLOCATE|[34]|Bytes:6
+13:11:55.0 (336658692)|HEAP_ALLOCATE|[34]|Bytes:43
+13:11:55.0 (336664766)|VARIABLE_ASSIGNMENT|[34]|address|"5546 Geary Blvd,San  (23 more) ..."
+13:11:55.0 (336678833)|STATEMENT_EXECUTE|[37]
+13:11:55.0 (336681388)|STATEMENT_EXECUTE|[38]
+13:11:55.0 (336699569)|VARIABLE_SCOPE_BEGIN|[38]|req|System.HttpRequest|true|false
+13:11:55.0 (336739129)|VARIABLE_ASSIGNMENT|[38]|req|"System.HttpRequest[Endpoint=null, Method=null]"|0x225afcb4
+13:11:55.0 (336746516)|STATEMENT_EXECUTE|[40]
+13:11:55.0 (336764062)|METHOD_ENTRY|[40]||System.EncodingUtil.urlEncode(String, String)
+13:11:55.0 (339694795)|METHOD_EXIT|[40]||System.EncodingUtil.urlEncode(String, String)
+13:11:55.0 (339718060)|VARIABLE_ASSIGNMENT|[40]|address|"5546+Geary+Blvd%2CSa (33 more) ..."
+13:11:55.0 (339728365)|STATEMENT_EXECUTE|[41]
+13:11:55.0 (339740115)|HEAP_ALLOCATE|[41]|Bytes:122
+13:11:55.0 (339766253)|STATEMENT_EXECUTE|[42]
+13:11:55.0 (339778927)|STATEMENT_EXECUTE|[43]
+13:11:55.0 (339791346)|VARIABLE_SCOPE_BEGIN|[43]|http|System.Http|true|false
+13:11:55.0 (339851605)|VARIABLE_ASSIGNMENT|[43]|http|"System.Http[]"|0x246b5e3f
+13:11:55.0 (339859883)|STATEMENT_EXECUTE|[44]
+13:11:55.0 (339864397)|VARIABLE_SCOPE_BEGIN|[44]|res|System.HttpResponse|true|false
+13:11:55.0 (339871289)|VARIABLE_ASSIGNMENT|[44]|res|null|
+13:11:55.0 (339881546)|METHOD_ENTRY|[45]||System.Test.isRunningTest()
+13:11:55.0 (339894255)|METHOD_EXIT|[45]||System.Test.isRunningTest()
+13:11:55.0 (339901510)|STATEMENT_EXECUTE|[45]
+13:11:55.0 (339904027)|STATEMENT_EXECUTE|[46]
+13:11:55.0 (339977807)|CALLOUT_REQUEST|[46]|System.HttpRequest[Endpoint=https://maps.googleapis.com/maps/api/geocode/xml?address=5546+Geary+Blvd%2CSan+Francisco%2CCA%2CUSA%2C94121%2C&sensor=true, Method=GET]
+13:11:55.0 (354463721)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:743
+13:11:55.0 (354544673)|CALLOUT_RESPONSE|[46]|System.HttpResponse[Status=OK, StatusCode=200]
+13:11:55.0 (354561872)|HEAP_ALLOCATE|[46]|Bytes:314
+13:11:55.0 (354638033)|VARIABLE_ASSIGNMENT|[46]|res|"System.HttpResponse[Status=OK, StatusCode=200]"|0x6d243041
+13:11:55.0 (354652268)|STATEMENT_EXECUTE|[57]
+13:11:55.0 (354778057)|VARIABLE_SCOPE_BEGIN|[57]|doc|dom.Document|true|false
+13:11:55.0 (354815164)|VARIABLE_ASSIGNMENT|[57]|doc|"Document[]"|0x51f3da50
+13:11:55.0 (354823452)|STATEMENT_EXECUTE|[59]
+13:11:55.0 (354847437)|VARIABLE_SCOPE_BEGIN|[59]|geocodeResponse|dom.XmlNode|true|false
+13:11:55.0 (354909248)|VARIABLE_ASSIGNMENT|[59]|geocodeResponse|"XMLNode[ELEMENT,GeocodeResponse,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n ,], XMLNode[ELEMENT,status,null,null,null,[XMLNode[TEXT,null,null,null,null,null,OVER_QUERY_LIMIT,]],null,], XMLNode[TEXT,null,null,null,null,null,\n ,], XMLNode[ELEMENT,error_message,null,null,null,[XMLNode[TEXT,null,null,null,null,null,You have exceeded your daily request quota for this API. We recommend registering for a key at the Google Developers Console: https://console.developers.google.com/,]],null,], XMLNode[TEXT,null,null,null,null,null,\n,]],null,]"|0x64829b5b
+13:11:55.0 (354920389)|STATEMENT_EXECUTE|[60]
+13:11:55.0 (354923159)|STATEMENT_EXECUTE|[62]
+13:11:55.0 (354944681)|VARIABLE_SCOPE_BEGIN|[62]|result|dom.XmlNode|true|false
+13:11:55.0 (354953361)|VARIABLE_ASSIGNMENT|[62]|result|null|
+13:11:55.0 (354958179)|STATEMENT_EXECUTE|[63]
+13:11:55.0 (354980686)|HEAP_ALLOCATE|[17]|Bytes:5
+13:11:55.0 (355012725)|HEAP_ALLOCATE|[17]|Bytes:32
+13:11:55.0 (355023395)|VARIABLE_SCOPE_BEGIN|[17]|acc|Account|true|false
+13:11:55.0 (355053193)|VARIABLE_ASSIGNMENT|[17]|acc|{"s":1,"v":{"Id":"00136000008NvuKAAS","Name":"Peter Houston","BillingStreet":"1520 W 62nd St","BillingCity":"Cook","BillingState":"IL","BillingCountry":"USA","BillingPostalCode":"60636"}}|0x1ae6ab52
+13:11:55.0 (355060881)|STATEMENT_EXECUTE|[17]
+13:11:55.0 (355063356)|STATEMENT_EXECUTE|[19]
+13:11:55.0 (355067602)|VARIABLE_SCOPE_BEGIN|[19]|address|String|false|false
+13:11:55.0 (355073028)|VARIABLE_ASSIGNMENT|[19]|address|""
+13:11:55.0 (355086023)|STATEMENT_EXECUTE|[21]
+13:11:55.0 (355088720)|STATEMENT_EXECUTE|[22]
+13:11:55.0 (355098488)|HEAP_ALLOCATE|[22]|Bytes:15
+13:11:55.0 (355103997)|HEAP_ALLOCATE|[22]|Bytes:15
+13:11:55.0 (355110424)|VARIABLE_ASSIGNMENT|[22]|address|"1520 W 62nd St,"
+13:11:55.0 (355119419)|STATEMENT_EXECUTE|[24]
+13:11:55.0 (355121893)|STATEMENT_EXECUTE|[25]
+13:11:55.0 (355128387)|HEAP_ALLOCATE|[25]|Bytes:5
+13:11:55.0 (355132820)|HEAP_ALLOCATE|[25]|Bytes:20
+13:11:55.0 (355138572)|VARIABLE_ASSIGNMENT|[25]|address|"1520 W 62nd St,Cook,"
+13:11:55.0 (355146341)|STATEMENT_EXECUTE|[27]
+13:11:55.0 (355148679)|STATEMENT_EXECUTE|[28]
+13:11:55.0 (355154303)|HEAP_ALLOCATE|[28]|Bytes:3
+13:11:55.0 (355158509)|HEAP_ALLOCATE|[28]|Bytes:23
+13:11:55.0 (355166038)|VARIABLE_ASSIGNMENT|[28]|address|"1520 W 62nd St,Cook, (3 more) ..."
+13:11:55.0 (355174048)|STATEMENT_EXECUTE|[30]
+13:11:55.0 (355176582)|STATEMENT_EXECUTE|[31]
+13:11:55.0 (355182608)|HEAP_ALLOCATE|[31]|Bytes:4
+13:11:55.0 (355186883)|HEAP_ALLOCATE|[31]|Bytes:27
+13:11:55.0 (355193200)|VARIABLE_ASSIGNMENT|[31]|address|"1520 W 62nd St,Cook, (7 more) ..."
+13:11:55.0 (355200582)|STATEMENT_EXECUTE|[33]
+13:11:55.0 (355203005)|STATEMENT_EXECUTE|[34]
+13:11:55.0 (355209052)|HEAP_ALLOCATE|[34]|Bytes:6
+13:11:55.0 (355213548)|HEAP_ALLOCATE|[34]|Bytes:33
+13:11:55.0 (355219907)|VARIABLE_ASSIGNMENT|[34]|address|"1520 W 62nd St,Cook, (13 more) ..."
+13:11:55.0 (355233333)|STATEMENT_EXECUTE|[37]
+13:11:55.0 (355235977)|STATEMENT_EXECUTE|[38]
+13:11:55.0 (355251359)|VARIABLE_SCOPE_BEGIN|[38]|req|System.HttpRequest|true|false
+13:11:55.0 (355289746)|VARIABLE_ASSIGNMENT|[38]|req|"System.HttpRequest[Endpoint=null, Method=null]"|0x560c2677
+13:11:55.0 (355297020)|STATEMENT_EXECUTE|[40]
+13:11:55.0 (355312098)|METHOD_ENTRY|[40]||System.EncodingUtil.urlEncode(String, String)
+13:11:55.0 (355354625)|METHOD_EXIT|[40]||System.EncodingUtil.urlEncode(String, String)
+13:11:55.0 (355364455)|VARIABLE_ASSIGNMENT|[40]|address|"1520+W+62nd+St%2CCoo (23 more) ..."
+13:11:55.0 (355369746)|STATEMENT_EXECUTE|[41]
+13:11:55.0 (355377810)|HEAP_ALLOCATE|[41]|Bytes:112
+13:11:55.0 (355398377)|STATEMENT_EXECUTE|[42]
+13:11:55.0 (355410021)|STATEMENT_EXECUTE|[43]
+13:11:55.0 (355421579)|VARIABLE_SCOPE_BEGIN|[43]|http|System.Http|true|false
+13:11:55.0 (355457058)|VARIABLE_ASSIGNMENT|[43]|http|"System.Http[]"|0x694a4f88
+13:11:55.0 (355463593)|STATEMENT_EXECUTE|[44]
+13:11:55.0 (355467383)|VARIABLE_SCOPE_BEGIN|[44]|res|System.HttpResponse|true|false
+13:11:55.0 (355473356)|VARIABLE_ASSIGNMENT|[44]|res|null|
+13:11:55.0 (355482530)|METHOD_ENTRY|[45]||System.Test.isRunningTest()
+13:11:55.0 (355494812)|METHOD_EXIT|[45]||System.Test.isRunningTest()
+13:11:55.0 (355501597)|STATEMENT_EXECUTE|[45]
+13:11:55.0 (355504054)|STATEMENT_EXECUTE|[46]
+13:11:55.0 (357805644)|CALLOUT_REQUEST|[46]|System.HttpRequest[Endpoint=https://maps.googleapis.com/maps/api/geocode/xml?address=1520+W+62nd+St%2CCook%2CIL%2CUSA%2C60636%2C&sensor=true, Method=GET]
+13:11:55.0 (372367464)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:743
+13:11:55.0 (372449920)|CALLOUT_RESPONSE|[46]|System.HttpResponse[Status=OK, StatusCode=200]
+13:11:55.0 (372465999)|HEAP_ALLOCATE|[46]|Bytes:314
+13:11:55.0 (372534353)|VARIABLE_ASSIGNMENT|[46]|res|"System.HttpResponse[Status=OK, StatusCode=200]"|0x35a1576f
+13:11:55.0 (372547357)|STATEMENT_EXECUTE|[57]
+13:11:55.0 (372666770)|VARIABLE_SCOPE_BEGIN|[57]|doc|dom.Document|true|false
+13:11:55.0 (372702045)|VARIABLE_ASSIGNMENT|[57]|doc|"Document[]"|0x2223ffa8
+13:11:55.0 (372710183)|STATEMENT_EXECUTE|[59]
+13:11:55.0 (372733942)|VARIABLE_SCOPE_BEGIN|[59]|geocodeResponse|dom.XmlNode|true|false
+13:11:55.0 (372791394)|VARIABLE_ASSIGNMENT|[59]|geocodeResponse|"XMLNode[ELEMENT,GeocodeResponse,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n ,], XMLNode[ELEMENT,status,null,null,null,[XMLNode[TEXT,null,null,null,null,null,OVER_QUERY_LIMIT,]],null,], XMLNode[TEXT,null,null,null,null,null,\n ,], XMLNode[ELEMENT,error_message,null,null,null,[XMLNode[TEXT,null,null,null,null,null,You have exceeded your daily request quota for this API. We recommend registering for a key at the Google Developers Console: https://console.developers.google.com/,]],null,], XMLNode[TEXT,null,null,null,null,null,\n,]],null,]"|0x20fb1f91
+13:11:55.0 (372802908)|STATEMENT_EXECUTE|[60]
+13:11:55.0 (372805474)|STATEMENT_EXECUTE|[62]
+13:11:55.0 (372827335)|VARIABLE_SCOPE_BEGIN|[62]|result|dom.XmlNode|true|false
+13:11:55.0 (372835567)|VARIABLE_ASSIGNMENT|[62]|result|null|
+13:11:55.0 (372840732)|STATEMENT_EXECUTE|[63]
+13:11:55.0 (372861849)|HEAP_ALLOCATE|[17]|Bytes:5
+13:11:55.0 (372891599)|HEAP_ALLOCATE|[17]|Bytes:32
+13:11:55.0 (372901559)|VARIABLE_SCOPE_BEGIN|[17]|acc|Account|true|false
+13:11:55.0 (372938019)|VARIABLE_ASSIGNMENT|[17]|acc|{"s":1,"v":{"Id":"00136000008NvuLAAS","Name":"Red Studio Designs","BillingStreet":"101 California St","BillingCity":"San Francisco","BillingState":"California","BillingCountry":"United States","BillingPostalCode":"94105-5188"}}|0x25f7ab4b
+13:11:55.0 (372946430)|STATEMENT_EXECUTE|[17]
+13:11:55.0 (372948867)|STATEMENT_EXECUTE|[19]
+13:11:55.0 (372953579)|VARIABLE_SCOPE_BEGIN|[19]|address|String|false|false
+13:11:55.0 (372959477)|VARIABLE_ASSIGNMENT|[19]|address|""
+13:11:55.0 (372972118)|STATEMENT_EXECUTE|[21]
+13:11:55.0 (372974917)|STATEMENT_EXECUTE|[22]
+13:11:55.0 (372984400)|HEAP_ALLOCATE|[22]|Bytes:18
+13:11:55.0 (372989774)|HEAP_ALLOCATE|[22]|Bytes:18
+13:11:55.0 (372996455)|VARIABLE_ASSIGNMENT|[22]|address|"101 California St,"
+13:11:55.0 (373004961)|STATEMENT_EXECUTE|[24]
+13:11:55.0 (373008327)|STATEMENT_EXECUTE|[25]
+13:11:55.0 (373014871)|HEAP_ALLOCATE|[25]|Bytes:14
+13:11:55.0 (373019271)|HEAP_ALLOCATE|[25]|Bytes:32
+13:11:55.0 (373026608)|VARIABLE_ASSIGNMENT|[25]|address|"101 California St,Sa (12 more) ..."
+13:11:55.0 (373034528)|STATEMENT_EXECUTE|[27]
+13:11:55.0 (373036926)|STATEMENT_EXECUTE|[28]
+13:11:55.0 (373042645)|HEAP_ALLOCATE|[28]|Bytes:11
+13:11:55.0 (373046881)|HEAP_ALLOCATE|[28]|Bytes:43
+13:11:55.0 (373053279)|VARIABLE_ASSIGNMENT|[28]|address|"101 California St,Sa (23 more) ..."
+13:11:55.0 (373060889)|STATEMENT_EXECUTE|[30]
+13:11:55.0 (373063352)|STATEMENT_EXECUTE|[31]
+13:11:55.0 (373069437)|HEAP_ALLOCATE|[31]|Bytes:14
+13:11:55.0 (373073803)|HEAP_ALLOCATE|[31]|Bytes:57
+13:11:55.0 (373080057)|VARIABLE_ASSIGNMENT|[31]|address|"101 California St,Sa (37 more) ..."
+13:11:55.0 (373087608)|STATEMENT_EXECUTE|[33]
+13:11:55.0 (373090004)|STATEMENT_EXECUTE|[34]
+13:11:55.0 (373096006)|HEAP_ALLOCATE|[34]|Bytes:11
+13:11:55.0 (373100175)|HEAP_ALLOCATE|[34]|Bytes:68
+13:11:55.0 (373106248)|VARIABLE_ASSIGNMENT|[34]|address|"101 California St,Sa (48 more) ..."
+13:11:55.0 (373119464)|STATEMENT_EXECUTE|[37]
+13:11:55.0 (373122113)|STATEMENT_EXECUTE|[38]
+13:11:55.0 (373137424)|VARIABLE_SCOPE_BEGIN|[38]|req|System.HttpRequest|true|false
+13:11:55.0 (373175327)|VARIABLE_ASSIGNMENT|[38]|req|"System.HttpRequest[Endpoint=null, Method=null]"|0x1a528ab5
+13:11:55.0 (373182606)|STATEMENT_EXECUTE|[40]
+13:11:55.0 (373199499)|METHOD_ENTRY|[40]||System.EncodingUtil.urlEncode(String, String)
+13:11:55.0 (373241645)|METHOD_EXIT|[40]||System.EncodingUtil.urlEncode(String, String)
+13:11:55.0 (373251265)|VARIABLE_ASSIGNMENT|[40]|address|"101+California+St%2C (58 more) ..."
+13:11:55.0 (373256582)|STATEMENT_EXECUTE|[41]
+13:11:55.0 (373263980)|HEAP_ALLOCATE|[41]|Bytes:147
+13:11:55.0 (373284887)|STATEMENT_EXECUTE|[42]
+13:11:55.0 (373296530)|STATEMENT_EXECUTE|[43]
+13:11:55.0 (373307897)|VARIABLE_SCOPE_BEGIN|[43]|http|System.Http|true|false
+13:11:55.0 (373343623)|VARIABLE_ASSIGNMENT|[43]|http|"System.Http[]"|0x5fce6c08
+13:11:55.0 (373350583)|STATEMENT_EXECUTE|[44]
+13:11:55.0 (373354453)|VARIABLE_SCOPE_BEGIN|[44]|res|System.HttpResponse|true|false
+13:11:55.0 (373360206)|VARIABLE_ASSIGNMENT|[44]|res|null|
+13:11:55.0 (373369057)|METHOD_ENTRY|[45]||System.Test.isRunningTest()
+13:11:55.0 (373380424)|METHOD_EXIT|[45]||System.Test.isRunningTest()
+13:11:55.0 (373387091)|STATEMENT_EXECUTE|[45]
+13:11:55.0 (373389511)|STATEMENT_EXECUTE|[46]
+13:11:55.0 (375944853)|CALLOUT_REQUEST|[46]|System.HttpRequest[Endpoint=https://maps.googleapis.com/maps/api/geocode/xml?address=101+California+St%2CSan+Francisco%2CCalifornia%2CUnited+States%2C94105-5188%2C&sensor=true, Method=GET]
+13:11:55.0 (391180083)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:743
+13:11:55.0 (391282812)|CALLOUT_RESPONSE|[46]|System.HttpResponse[Status=OK, StatusCode=200]
+13:11:55.0 (391304119)|HEAP_ALLOCATE|[46]|Bytes:314
+13:11:55.0 (391408299)|VARIABLE_ASSIGNMENT|[46]|res|"System.HttpResponse[Status=OK, StatusCode=200]"|0x193e657
+13:11:55.0 (391426242)|STATEMENT_EXECUTE|[57]
+13:11:55.0 (391582897)|VARIABLE_SCOPE_BEGIN|[57]|doc|dom.Document|true|false
+13:11:55.0 (391633627)|VARIABLE_ASSIGNMENT|[57]|doc|"Document[]"|0x4840f009
+13:11:55.0 (391645463)|STATEMENT_EXECUTE|[59]
+13:11:55.0 (391680299)|VARIABLE_SCOPE_BEGIN|[59]|geocodeResponse|dom.XmlNode|true|false
+13:11:55.0 (391769753)|VARIABLE_ASSIGNMENT|[59]|geocodeResponse|"XMLNode[ELEMENT,GeocodeResponse,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n ,], XMLNode[ELEMENT,status,null,null,null,[XMLNode[TEXT,null,null,null,null,null,OVER_QUERY_LIMIT,]],null,], XMLNode[TEXT,null,null,null,null,null,\n ,], XMLNode[ELEMENT,error_message,null,null,null,[XMLNode[TEXT,null,null,null,null,null,You have exceeded your daily request quota for this API. We recommend registering for a key at the Google Developers Console: https://console.developers.google.com/,]],null,], XMLNode[TEXT,null,null,null,null,null,\n,]],null,]"|0x7406b9c0
+13:11:55.0 (391787679)|STATEMENT_EXECUTE|[60]
+13:11:55.0 (391792661)|STATEMENT_EXECUTE|[62]
+13:11:55.0 (391824872)|VARIABLE_SCOPE_BEGIN|[62]|result|dom.XmlNode|true|false
+13:11:55.0 (391838001)|VARIABLE_ASSIGNMENT|[62]|result|null|
+13:11:55.0 (391847076)|STATEMENT_EXECUTE|[63]
+13:11:55.0 (391875815)|HEAP_ALLOCATE|[17]|Bytes:5
+13:11:55.0 (391922490)|HEAP_ALLOCATE|[17]|Bytes:32
+13:11:55.0 (391939025)|VARIABLE_SCOPE_BEGIN|[17]|acc|Account|true|false
+13:11:55.0 (391980412)|VARIABLE_ASSIGNMENT|[17]|acc|{"s":1,"v":{"Id":"00136000008NvuMAAS","Name":"Robert Janzen","BillingStreet":"3136 Almahurst Row","BillingCity":"La Jolla","BillingState":"CA","BillingCountry":"USA","BillingPostalCode":"92037"}}|0x3df8b454
+13:11:55.0 (391991612)|STATEMENT_EXECUTE|[17]
+13:11:55.0 (391996263)|STATEMENT_EXECUTE|[19]
+13:11:55.0 (392004763)|VARIABLE_SCOPE_BEGIN|[19]|address|String|false|false
+13:11:55.0 (392016641)|VARIABLE_ASSIGNMENT|[19]|address|""
+13:11:55.0 (392036627)|STATEMENT_EXECUTE|[21]
+13:11:55.0 (392042058)|STATEMENT_EXECUTE|[22]
+13:11:55.0 (392058247)|HEAP_ALLOCATE|[22]|Bytes:19
+13:11:55.0 (392068227)|HEAP_ALLOCATE|[22]|Bytes:19
+13:11:55.0 (392081603)|VARIABLE_ASSIGNMENT|[22]|address|"3136 Almahurst Row,"
+13:11:55.0 (392098639)|STATEMENT_EXECUTE|[24]
+13:11:55.0 (392103258)|STATEMENT_EXECUTE|[25]
+13:11:55.0 (392117329)|HEAP_ALLOCATE|[25]|Bytes:9
+13:11:55.0 (392126539)|HEAP_ALLOCATE|[25]|Bytes:28
+13:11:55.0 (392141181)|VARIABLE_ASSIGNMENT|[25]|address|"3136 Almahurst Row,L (8 more) ..."
+13:11:55.0 (392158187)|STATEMENT_EXECUTE|[27]
+13:11:55.0 (392163391)|STATEMENT_EXECUTE|[28]
+13:11:55.0 (392177851)|HEAP_ALLOCATE|[28]|Bytes:3
+13:11:55.0 (392187433)|HEAP_ALLOCATE|[28]|Bytes:31
+13:11:55.0 (392201969)|VARIABLE_ASSIGNMENT|[28]|address|"3136 Almahurst Row,L (11 more) ..."
+13:11:55.0 (392218733)|STATEMENT_EXECUTE|[30]
+13:11:55.0 (392224039)|STATEMENT_EXECUTE|[31]
+13:11:55.0 (392237679)|HEAP_ALLOCATE|[31]|Bytes:4
+13:11:55.0 (392246642)|HEAP_ALLOCATE|[31]|Bytes:35
+13:11:55.0 (392261310)|VARIABLE_ASSIGNMENT|[31]|address|"3136 Almahurst Row,L (15 more) ..."
+13:11:55.0 (392277850)|STATEMENT_EXECUTE|[33]
+13:11:55.0 (392283226)|STATEMENT_EXECUTE|[34]
+13:11:55.0 (392298534)|HEAP_ALLOCATE|[34]|Bytes:6
+13:11:55.0 (392308527)|HEAP_ALLOCATE|[34]|Bytes:41
+13:11:55.0 (392322479)|VARIABLE_ASSIGNMENT|[34]|address|"3136 Almahurst Row,L (21 more) ..."
+13:11:55.0 (392345730)|STATEMENT_EXECUTE|[37]
+13:11:55.0 (392351280)|STATEMENT_EXECUTE|[38]
+13:11:55.0 (392373172)|VARIABLE_SCOPE_BEGIN|[38]|req|System.HttpRequest|true|false
+13:11:55.0 (392430873)|VARIABLE_ASSIGNMENT|[38]|req|"System.HttpRequest[Endpoint=null, Method=null]"|0x23c75ce2
+13:11:55.0 (392441975)|STATEMENT_EXECUTE|[40]
+13:11:55.0 (392462847)|METHOD_ENTRY|[40]||System.EncodingUtil.urlEncode(String, String)
+13:11:55.0 (392522970)|METHOD_EXIT|[40]||System.EncodingUtil.urlEncode(String, String)
+13:11:55.0 (392539208)|VARIABLE_ASSIGNMENT|[40]|address|"3136+Almahurst+Row%2 (31 more) ..."
+13:11:55.0 (392548342)|STATEMENT_EXECUTE|[41]
+13:11:55.0 (392560262)|HEAP_ALLOCATE|[41]|Bytes:120
+13:11:55.0 (392584604)|STATEMENT_EXECUTE|[42]
+13:11:55.0 (392596928)|STATEMENT_EXECUTE|[43]
+13:11:55.0 (392608673)|VARIABLE_SCOPE_BEGIN|[43]|http|System.Http|true|false
+13:11:55.0 (392647377)|VARIABLE_ASSIGNMENT|[43]|http|"System.Http[]"|0x2dc15cdb
+13:11:55.0 (392654319)|STATEMENT_EXECUTE|[44]
+13:11:55.0 (392658330)|VARIABLE_SCOPE_BEGIN|[44]|res|System.HttpResponse|true|false
+13:11:55.0 (392664453)|VARIABLE_ASSIGNMENT|[44]|res|null|
+13:11:55.0 (392674236)|METHOD_ENTRY|[45]||System.Test.isRunningTest()
+13:11:55.0 (392686081)|METHOD_EXIT|[45]||System.Test.isRunningTest()
+13:11:55.0 (392692891)|STATEMENT_EXECUTE|[45]
+13:11:55.0 (392695276)|STATEMENT_EXECUTE|[46]
+13:11:55.0 (394921493)|CALLOUT_REQUEST|[46]|System.HttpRequest[Endpoint=https://maps.googleapis.com/maps/api/geocode/xml?address=3136+Almahurst+Row%2CLa+Jolla%2CCA%2CUSA%2C92037%2C&sensor=true, Method=GET]
+13:11:55.0 (408777299)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:743
+13:11:55.0 (408844833)|CALLOUT_RESPONSE|[46]|System.HttpResponse[Status=OK, StatusCode=200]
+13:11:55.0 (408859202)|HEAP_ALLOCATE|[46]|Bytes:314
+13:11:55.0 (408932672)|VARIABLE_ASSIGNMENT|[46]|res|"System.HttpResponse[Status=OK, StatusCode=200]"|0x27bc5035
+13:11:55.0 (408945190)|STATEMENT_EXECUTE|[57]
+13:11:55.0 (409065700)|VARIABLE_SCOPE_BEGIN|[57]|doc|dom.Document|true|false
+13:11:55.0 (409102321)|VARIABLE_ASSIGNMENT|[57]|doc|"Document[]"|0x152866d5
+13:11:55.0 (409110649)|STATEMENT_EXECUTE|[59]
+13:11:55.0 (409134368)|VARIABLE_SCOPE_BEGIN|[59]|geocodeResponse|dom.XmlNode|true|false
+13:11:55.0 (409191916)|VARIABLE_ASSIGNMENT|[59]|geocodeResponse|"XMLNode[ELEMENT,GeocodeResponse,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n ,], XMLNode[ELEMENT,status,null,null,null,[XMLNode[TEXT,null,null,null,null,null,OVER_QUERY_LIMIT,]],null,], XMLNode[TEXT,null,null,null,null,null,\n ,], XMLNode[ELEMENT,error_message,null,null,null,[XMLNode[TEXT,null,null,null,null,null,You have exceeded your daily request quota for this API. We recommend registering for a key at the Google Developers Console: https://console.developers.google.com/,]],null,], XMLNode[TEXT,null,null,null,null,null,\n,]],null,]"|0x21a7b206
+13:11:55.0 (409203480)|STATEMENT_EXECUTE|[60]
+13:11:55.0 (409206194)|STATEMENT_EXECUTE|[62]
+13:11:55.0 (409227997)|VARIABLE_SCOPE_BEGIN|[62]|result|dom.XmlNode|true|false
+13:11:55.0 (409236236)|VARIABLE_ASSIGNMENT|[62]|result|null|
+13:11:55.0 (409241045)|STATEMENT_EXECUTE|[63]
+13:11:55.0 (409259425)|HEAP_ALLOCATE|[17]|Bytes:5
+13:11:55.0 (409285946)|HEAP_ALLOCATE|[17]|Bytes:32
+13:11:55.0 (409295218)|VARIABLE_SCOPE_BEGIN|[17]|acc|Account|true|false
+13:11:55.0 (409324039)|VARIABLE_ASSIGNMENT|[17]|acc|{"s":1,"v":{"Id":"00136000008NvuNAAS","Name":"Roseburg Sound Produ (6 more) ...","BillingStreet":"3484 Pinklon Circle","BillingCity":"San Miguel","BillingState":"California","BillingCountry":"United States","BillingPostalCode":"93451"}}|0x18574082
+13:11:55.0 (409331777)|STATEMENT_EXECUTE|[17]
+13:11:55.0 (409334410)|STATEMENT_EXECUTE|[19]
+13:11:55.0 (409338768)|VARIABLE_SCOPE_BEGIN|[19]|address|String|false|false
+13:11:55.0 (409344202)|VARIABLE_ASSIGNMENT|[19]|address|""
+13:11:55.0 (409355900)|STATEMENT_EXECUTE|[21]
+13:11:55.0 (409358692)|STATEMENT_EXECUTE|[22]
+13:11:55.0 (409367896)|HEAP_ALLOCATE|[22]|Bytes:20
+13:11:55.0 (409373376)|HEAP_ALLOCATE|[22]|Bytes:20
+13:11:55.0 (409379957)|VARIABLE_ASSIGNMENT|[22]|address|"3484 Pinklon Circle,"
+13:11:55.0 (409388580)|STATEMENT_EXECUTE|[24]
+13:11:55.0 (409391007)|STATEMENT_EXECUTE|[25]
+13:11:55.0 (409397093)|HEAP_ALLOCATE|[25]|Bytes:11
+13:11:55.0 (409401419)|HEAP_ALLOCATE|[25]|Bytes:31
+13:11:55.0 (409408141)|VARIABLE_ASSIGNMENT|[25]|address|"3484 Pinklon Circle, (11 more) ..."
+13:11:55.0 (409416055)|STATEMENT_EXECUTE|[27]
+13:11:55.0 (409418517)|STATEMENT_EXECUTE|[28]
+13:11:55.0 (409424151)|HEAP_ALLOCATE|[28]|Bytes:11
+13:11:55.0 (409428391)|HEAP_ALLOCATE|[28]|Bytes:42
+13:11:55.0 (409434845)|VARIABLE_ASSIGNMENT|[28]|address|"3484 Pinklon Circle, (22 more) ..."
+13:11:55.0 (409442166)|STATEMENT_EXECUTE|[30]
+13:11:55.0 (409444637)|STATEMENT_EXECUTE|[31]
+13:11:55.0 (409450732)|HEAP_ALLOCATE|[31]|Bytes:14
+13:11:55.0 (409455343)|HEAP_ALLOCATE|[31]|Bytes:56
+13:11:55.0 (409461637)|VARIABLE_ASSIGNMENT|[31]|address|"3484 Pinklon Circle, (36 more) ..."
+13:11:55.0 (409469080)|STATEMENT_EXECUTE|[33]
+13:11:55.0 (409471551)|STATEMENT_EXECUTE|[34]
+13:11:55.0 (409477606)|HEAP_ALLOCATE|[34]|Bytes:6
+13:11:55.0 (409481672)|HEAP_ALLOCATE|[34]|Bytes:62
+13:11:55.0 (409487889)|VARIABLE_ASSIGNMENT|[34]|address|"3484 Pinklon Circle, (42 more) ..."
+13:11:55.0 (409500505)|STATEMENT_EXECUTE|[37]
+13:11:55.0 (409503078)|STATEMENT_EXECUTE|[38]
+13:11:55.0 (409516120)|VARIABLE_SCOPE_BEGIN|[38]|req|System.HttpRequest|true|false
+13:11:55.0 (409553565)|VARIABLE_ASSIGNMENT|[38]|req|"System.HttpRequest[Endpoint=null, Method=null]"|0x5d2f8645
+13:11:55.0 (409560820)|STATEMENT_EXECUTE|[40]
+13:11:55.0 (409575693)|METHOD_ENTRY|[40]||System.EncodingUtil.urlEncode(String, String)
+13:11:55.0 (409617419)|METHOD_EXIT|[40]||System.EncodingUtil.urlEncode(String, String)
+13:11:55.0 (409627127)|VARIABLE_ASSIGNMENT|[40]|address|"3484+Pinklon+Circle% (52 more) ..."
+13:11:55.0 (409632247)|STATEMENT_EXECUTE|[41]
+13:11:55.0 (409639252)|HEAP_ALLOCATE|[41]|Bytes:141
+13:11:55.0 (409659225)|STATEMENT_EXECUTE|[42]
+13:11:55.0 (409680487)|STATEMENT_EXECUTE|[43]
+13:11:55.0 (409695580)|VARIABLE_SCOPE_BEGIN|[43]|http|System.Http|true|false
+13:11:55.0 (409732788)|VARIABLE_ASSIGNMENT|[43]|http|"System.Http[]"|0x17ccf903
+13:11:55.0 (409739825)|STATEMENT_EXECUTE|[44]
+13:11:55.0 (409743815)|VARIABLE_SCOPE_BEGIN|[44]|res|System.HttpResponse|true|false
+13:11:55.0 (409749572)|VARIABLE_ASSIGNMENT|[44]|res|null|
+13:11:55.0 (409758470)|METHOD_ENTRY|[45]||System.Test.isRunningTest()
+13:11:55.0 (409770129)|METHOD_EXIT|[45]||System.Test.isRunningTest()
+13:11:55.0 (409777151)|STATEMENT_EXECUTE|[45]
+13:11:55.0 (409779669)|STATEMENT_EXECUTE|[46]
+13:11:55.0 (412089131)|CALLOUT_REQUEST|[46]|System.HttpRequest[Endpoint=https://maps.googleapis.com/maps/api/geocode/xml?address=3484+Pinklon+Circle%2CSan+Miguel%2CCalifornia%2CUnited+States%2C93451%2C&sensor=true, Method=GET]
+13:11:55.0 (427535592)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:743
+13:11:55.0 (427599603)|CALLOUT_RESPONSE|[46]|System.HttpResponse[Status=OK, StatusCode=200]
+13:11:55.0 (427613645)|HEAP_ALLOCATE|[46]|Bytes:314
+13:11:55.0 (427671672)|VARIABLE_ASSIGNMENT|[46]|res|"System.HttpResponse[Status=OK, StatusCode=200]"|0x20f6e7a0
+13:11:55.0 (427683334)|STATEMENT_EXECUTE|[57]
+13:11:55.0 (427802468)|VARIABLE_SCOPE_BEGIN|[57]|doc|dom.Document|true|false
+13:11:55.0 (427850150)|VARIABLE_ASSIGNMENT|[57]|doc|"Document[]"|0x54bb0337
+13:11:55.0 (427859798)|STATEMENT_EXECUTE|[59]
+13:11:55.0 (427883284)|VARIABLE_SCOPE_BEGIN|[59]|geocodeResponse|dom.XmlNode|true|false
+13:11:55.0 (427947186)|VARIABLE_ASSIGNMENT|[59]|geocodeResponse|"XMLNode[ELEMENT,GeocodeResponse,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n ,], XMLNode[ELEMENT,status,null,null,null,[XMLNode[TEXT,null,null,null,null,null,OVER_QUERY_LIMIT,]],null,], XMLNode[TEXT,null,null,null,null,null,\n ,], XMLNode[ELEMENT,error_message,null,null,null,[XMLNode[TEXT,null,null,null,null,null,You have exceeded your daily request quota for this API. We recommend registering for a key at the Google Developers Console: https://console.developers.google.com/,]],null,], XMLNode[TEXT,null,null,null,null,null,\n,]],null,]"|0xba1830a
+13:11:55.0 (427958425)|STATEMENT_EXECUTE|[60]
+13:11:55.0 (427960968)|STATEMENT_EXECUTE|[62]
+13:11:55.0 (427982334)|VARIABLE_SCOPE_BEGIN|[62]|result|dom.XmlNode|true|false
+13:11:55.0 (427990265)|VARIABLE_ASSIGNMENT|[62]|result|null|
+13:11:55.0 (427994974)|STATEMENT_EXECUTE|[63]
+13:11:55.0 (428014273)|HEAP_ALLOCATE|[17]|Bytes:5
+13:11:55.0 (428043471)|HEAP_ALLOCATE|[17]|Bytes:32
+13:11:55.0 (428053765)|VARIABLE_SCOPE_BEGIN|[17]|acc|Account|true|false
+13:11:55.0 (428080056)|VARIABLE_ASSIGNMENT|[17]|acc|{"s":1,"v":{"Id":"00136000008NvuOAAS","Name":"Salesforce.com, Inc.","BillingStreet":"1 Market Ste 300","BillingCity":"San Francisco","BillingState":"CA","BillingCountry":"USA","BillingPostalCode":"94105-5188"}}|0x31b73442
+13:11:55.0 (428087613)|STATEMENT_EXECUTE|[17]
+13:11:55.0 (428090045)|STATEMENT_EXECUTE|[19]
+13:11:55.0 (428094196)|VARIABLE_SCOPE_BEGIN|[19]|address|String|false|false
+13:11:55.0 (428099797)|VARIABLE_ASSIGNMENT|[19]|address|""
+13:11:55.0 (428112019)|STATEMENT_EXECUTE|[21]
+13:11:55.0 (428114590)|STATEMENT_EXECUTE|[22]
+13:11:55.0 (428124620)|HEAP_ALLOCATE|[22]|Bytes:17
+13:11:55.0 (428129931)|HEAP_ALLOCATE|[22]|Bytes:17
+13:11:55.0 (428136494)|VARIABLE_ASSIGNMENT|[22]|address|"1 Market Ste 300,"
+13:11:55.0 (428144814)|STATEMENT_EXECUTE|[24]
+13:11:55.0 (428147293)|STATEMENT_EXECUTE|[25]
+13:11:55.0 (428153517)|HEAP_ALLOCATE|[25]|Bytes:14
+13:11:55.0 (428157679)|HEAP_ALLOCATE|[25]|Bytes:31
+13:11:55.0 (428164669)|VARIABLE_ASSIGNMENT|[25]|address|"1 Market Ste 300,San (11 more) ..."
+13:11:55.0 (428172277)|STATEMENT_EXECUTE|[27]
+13:11:55.0 (428174728)|STATEMENT_EXECUTE|[28]
+13:11:55.0 (428180380)|HEAP_ALLOCATE|[28]|Bytes:3
+13:11:55.0 (428184616)|HEAP_ALLOCATE|[28]|Bytes:34
+13:11:55.0 (428191024)|VARIABLE_ASSIGNMENT|[28]|address|"1 Market Ste 300,San (14 more) ..."
+13:11:55.0 (428198288)|STATEMENT_EXECUTE|[30]
+13:11:55.0 (428200708)|STATEMENT_EXECUTE|[31]
+13:11:55.0 (428206389)|HEAP_ALLOCATE|[31]|Bytes:4
+13:11:55.0 (428210498)|HEAP_ALLOCATE|[31]|Bytes:38
+13:11:55.0 (428216858)|VARIABLE_ASSIGNMENT|[31]|address|"1 Market Ste 300,San (18 more) ..."
+13:11:55.0 (428224234)|STATEMENT_EXECUTE|[33]
+13:11:55.0 (428226597)|STATEMENT_EXECUTE|[34]
+13:11:55.0 (428232508)|HEAP_ALLOCATE|[34]|Bytes:11
+13:11:55.0 (428236842)|HEAP_ALLOCATE|[34]|Bytes:49
+13:11:55.0 (428243211)|VARIABLE_ASSIGNMENT|[34]|address|"1 Market Ste 300,San (29 more) ..."
+13:11:55.0 (428255903)|STATEMENT_EXECUTE|[37]
+13:11:55.0 (428258558)|STATEMENT_EXECUTE|[38]
+13:11:55.0 (428271763)|VARIABLE_SCOPE_BEGIN|[38]|req|System.HttpRequest|true|false
+13:11:55.0 (428309580)|VARIABLE_ASSIGNMENT|[38]|req|"System.HttpRequest[Endpoint=null, Method=null]"|0x266b1e33
+13:11:55.0 (428316838)|STATEMENT_EXECUTE|[40]
+13:11:55.0 (428331402)|METHOD_ENTRY|[40]||System.EncodingUtil.urlEncode(String, String)
+13:11:55.0 (428370395)|METHOD_EXIT|[40]||System.EncodingUtil.urlEncode(String, String)
+13:11:55.0 (428380552)|VARIABLE_ASSIGNMENT|[40]|address|"1+Market+Ste+300%2CS (39 more) ..."
+13:11:55.0 (428385787)|STATEMENT_EXECUTE|[41]
+13:11:55.0 (428393384)|HEAP_ALLOCATE|[41]|Bytes:128
+13:11:55.0 (428413460)|STATEMENT_EXECUTE|[42]
+13:11:55.0 (428424935)|STATEMENT_EXECUTE|[43]
+13:11:55.0 (428435959)|VARIABLE_SCOPE_BEGIN|[43]|http|System.Http|true|false
+13:11:55.0 (428470831)|VARIABLE_ASSIGNMENT|[43]|http|"System.Http[]"|0x2d7b6cf3
+13:11:55.0 (428477664)|STATEMENT_EXECUTE|[44]
+13:11:55.0 (428481443)|VARIABLE_SCOPE_BEGIN|[44]|res|System.HttpResponse|true|false
+13:11:55.0 (428487378)|VARIABLE_ASSIGNMENT|[44]|res|null|
+13:11:55.0 (428495942)|METHOD_ENTRY|[45]||System.Test.isRunningTest()
+13:11:55.0 (428507264)|METHOD_EXIT|[45]||System.Test.isRunningTest()
+13:11:55.0 (428514026)|STATEMENT_EXECUTE|[45]
+13:11:55.0 (428516483)|STATEMENT_EXECUTE|[46]
+13:11:55.0 (430751712)|CALLOUT_REQUEST|[46]|System.HttpRequest[Endpoint=https://maps.googleapis.com/maps/api/geocode/xml?address=1+Market+Ste+300%2CSan+Francisco%2CCA%2CUSA%2C94105-5188%2C&sensor=true, Method=GET]
+13:11:55.0 (445339299)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:743
+13:11:55.0 (445398883)|CALLOUT_RESPONSE|[46]|System.HttpResponse[Status=OK, StatusCode=200]
+13:11:55.0 (445411660)|HEAP_ALLOCATE|[46]|Bytes:314
+13:11:55.0 (445465102)|VARIABLE_ASSIGNMENT|[46]|res|"System.HttpResponse[Status=OK, StatusCode=200]"|0x586df096
+13:11:55.0 (445475060)|STATEMENT_EXECUTE|[57]
+13:11:55.0 (445568929)|VARIABLE_SCOPE_BEGIN|[57]|doc|dom.Document|true|false
+13:11:55.0 (445602856)|VARIABLE_ASSIGNMENT|[57]|doc|"Document[]"|0x2c710aee
+13:11:55.0 (445610655)|STATEMENT_EXECUTE|[59]
+13:11:55.0 (445630972)|VARIABLE_SCOPE_BEGIN|[59]|geocodeResponse|dom.XmlNode|true|false
+13:11:55.0 (445684747)|VARIABLE_ASSIGNMENT|[59]|geocodeResponse|"XMLNode[ELEMENT,GeocodeResponse,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n ,], XMLNode[ELEMENT,status,null,null,null,[XMLNode[TEXT,null,null,null,null,null,OVER_QUERY_LIMIT,]],null,], XMLNode[TEXT,null,null,null,null,null,\n ,], XMLNode[ELEMENT,error_message,null,null,null,[XMLNode[TEXT,null,null,null,null,null,You have exceeded your daily request quota for this API. We recommend registering for a key at the Google Developers Console: https://console.developers.google.com/,]],null,], XMLNode[TEXT,null,null,null,null,null,\n,]],null,]"|0x197b5744
+13:11:55.0 (445695855)|STATEMENT_EXECUTE|[60]
+13:11:55.0 (445698294)|STATEMENT_EXECUTE|[62]
+13:11:55.0 (445716614)|VARIABLE_SCOPE_BEGIN|[62]|result|dom.XmlNode|true|false
+13:11:55.0 (445723697)|VARIABLE_ASSIGNMENT|[62]|result|null|
+13:11:55.0 (445728237)|STATEMENT_EXECUTE|[63]
+13:11:55.0 (445745699)|HEAP_ALLOCATE|[17]|Bytes:5
+13:11:55.0 (445773578)|HEAP_ALLOCATE|[17]|Bytes:32
+13:11:55.0 (445783560)|VARIABLE_SCOPE_BEGIN|[17]|acc|Account|true|false
+13:11:55.0 (445808032)|VARIABLE_ASSIGNMENT|[17]|acc|{"s":1,"v":{"Id":"00136000008NvuPAAS","Name":"Silver Partners","BillingStreet":"1 S. Dearborn","BillingCity":"Chicago","BillingState":"Illinois","BillingCountry":"United States","BillingPostalCode":"94105-5188"}}|0x50039de
+13:11:55.0 (445815517)|STATEMENT_EXECUTE|[17]
+13:11:55.0 (445817885)|STATEMENT_EXECUTE|[19]
+13:11:55.0 (445821799)|VARIABLE_SCOPE_BEGIN|[19]|address|String|false|false
+13:11:55.0 (445826892)|VARIABLE_ASSIGNMENT|[19]|address|""
+13:11:55.0 (445838536)|STATEMENT_EXECUTE|[21]
+13:11:55.0 (445841056)|STATEMENT_EXECUTE|[22]
+13:11:55.0 (445850421)|HEAP_ALLOCATE|[22]|Bytes:14
+13:11:55.0 (445855461)|HEAP_ALLOCATE|[22]|Bytes:14
+13:11:55.0 (445861805)|VARIABLE_ASSIGNMENT|[22]|address|"1 S. Dearborn,"
+13:11:55.0 (445869619)|STATEMENT_EXECUTE|[24]
+13:11:55.0 (445871917)|STATEMENT_EXECUTE|[25]
+13:11:55.0 (445877892)|HEAP_ALLOCATE|[25]|Bytes:8
+13:11:55.0 (445881913)|HEAP_ALLOCATE|[25]|Bytes:22
+13:11:55.0 (445888774)|VARIABLE_ASSIGNMENT|[25]|address|"1 S. Dearborn,Chicag (2 more) ..."
+13:11:55.0 (445896209)|STATEMENT_EXECUTE|[27]
+13:11:55.0 (445898608)|STATEMENT_EXECUTE|[28]
+13:11:55.0 (445909660)|HEAP_ALLOCATE|[28]|Bytes:9
+13:11:55.0 (445914263)|HEAP_ALLOCATE|[28]|Bytes:31
+13:11:55.0 (445921458)|VARIABLE_ASSIGNMENT|[28]|address|"1 S. Dearborn,Chicag (11 more) ..."
+13:11:55.0 (445929302)|STATEMENT_EXECUTE|[30]
+13:11:55.0 (445931652)|STATEMENT_EXECUTE|[31]
+13:11:55.0 (445937634)|HEAP_ALLOCATE|[31]|Bytes:14
+13:11:55.0 (445941684)|HEAP_ALLOCATE|[31]|Bytes:45
+13:11:55.0 (445947931)|VARIABLE_ASSIGNMENT|[31]|address|"1 S. Dearborn,Chicag (25 more) ..."
+13:11:55.0 (445954975)|STATEMENT_EXECUTE|[33]
+13:11:55.0 (445957187)|STATEMENT_EXECUTE|[34]
+13:11:55.0 (445963017)|HEAP_ALLOCATE|[34]|Bytes:11
+13:11:55.0 (445967067)|HEAP_ALLOCATE|[34]|Bytes:56
+13:11:55.0 (445973422)|VARIABLE_ASSIGNMENT|[34]|address|"1 S. Dearborn,Chicag (36 more) ..."
+13:11:55.0 (445986052)|STATEMENT_EXECUTE|[37]
+13:11:55.0 (445988573)|STATEMENT_EXECUTE|[38]
+13:11:55.0 (446000308)|VARIABLE_SCOPE_BEGIN|[38]|req|System.HttpRequest|true|false
+13:11:55.0 (446037726)|VARIABLE_ASSIGNMENT|[38]|req|"System.HttpRequest[Endpoint=null, Method=null]"|0x325e90a8
+13:11:55.0 (446044892)|STATEMENT_EXECUTE|[40]
+13:11:55.0 (446057364)|METHOD_ENTRY|[40]||System.EncodingUtil.urlEncode(String, String)
+13:11:55.0 (446094645)|METHOD_EXIT|[40]||System.EncodingUtil.urlEncode(String, String)
+13:11:55.0 (446104024)|VARIABLE_ASSIGNMENT|[40]|address|"1+S.+Dearborn%2CChic (46 more) ..."
+13:11:55.0 (446109060)|STATEMENT_EXECUTE|[41]
+13:11:55.0 (446116259)|HEAP_ALLOCATE|[41]|Bytes:135
+13:11:55.0 (446135309)|STATEMENT_EXECUTE|[42]
+13:11:55.0 (446146311)|STATEMENT_EXECUTE|[43]
+13:11:55.0 (446157248)|VARIABLE_SCOPE_BEGIN|[43]|http|System.Http|true|false
+13:11:55.0 (446191924)|VARIABLE_ASSIGNMENT|[43]|http|"System.Http[]"|0x55de7e8f
+13:11:55.0 (446198574)|STATEMENT_EXECUTE|[44]
+13:11:55.0 (446202459)|VARIABLE_SCOPE_BEGIN|[44]|res|System.HttpResponse|true|false
+13:11:55.0 (446208170)|VARIABLE_ASSIGNMENT|[44]|res|null|
+13:11:55.0 (446216582)|METHOD_ENTRY|[45]||System.Test.isRunningTest()
+13:11:55.0 (446228003)|METHOD_EXIT|[45]||System.Test.isRunningTest()
+13:11:55.0 (446234756)|STATEMENT_EXECUTE|[45]
+13:11:55.0 (446237126)|STATEMENT_EXECUTE|[46]
+13:11:55.0 (448502348)|CALLOUT_REQUEST|[46]|System.HttpRequest[Endpoint=https://maps.googleapis.com/maps/api/geocode/xml?address=1+S.+Dearborn%2CChicago%2CIllinois%2CUnited+States%2C94105-5188%2C&sensor=true, Method=GET]
+13:11:55.0 (462759233)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:743
+13:11:55.0 (462846653)|CALLOUT_RESPONSE|[46]|System.HttpResponse[Status=OK, StatusCode=200]
+13:11:55.0 (462863383)|HEAP_ALLOCATE|[46]|Bytes:314
+13:11:55.0 (462946851)|VARIABLE_ASSIGNMENT|[46]|res|"System.HttpResponse[Status=OK, StatusCode=200]"|0x5943db39
+13:11:55.0 (462961852)|STATEMENT_EXECUTE|[57]
+13:11:55.0 (463087587)|VARIABLE_SCOPE_BEGIN|[57]|doc|dom.Document|true|false
+13:11:55.0 (463124530)|VARIABLE_ASSIGNMENT|[57]|doc|"Document[]"|0x464f1d8a
+13:11:55.0 (463132549)|STATEMENT_EXECUTE|[59]
+13:11:55.0 (463155306)|VARIABLE_SCOPE_BEGIN|[59]|geocodeResponse|dom.XmlNode|true|false
+13:11:55.0 (463214531)|VARIABLE_ASSIGNMENT|[59]|geocodeResponse|"XMLNode[ELEMENT,GeocodeResponse,null,null,null,[XMLNode[TEXT,null,null,null,null,null,\n ,], XMLNode[ELEMENT,status,null,null,null,[XMLNode[TEXT,null,null,null,null,null,OVER_QUERY_LIMIT,]],null,], XMLNode[TEXT,null,null,null,null,null,\n ,], XMLNode[ELEMENT,error_message,null,null,null,[XMLNode[TEXT,null,null,null,null,null,You have exceeded your daily request quota for this API. We recommend registering for a key at the Google Developers Console: https://console.developers.google.com/,]],null,], XMLNode[TEXT,null,null,null,null,null,\n,]],null,]"|0x2d248681
+13:11:55.0 (463225550)|STATEMENT_EXECUTE|[60]
+13:11:55.0 (463228146)|STATEMENT_EXECUTE|[62]
+13:11:55.0 (463249297)|VARIABLE_SCOPE_BEGIN|[62]|result|dom.XmlNode|true|false
+13:11:55.0 (463257963)|VARIABLE_ASSIGNMENT|[62]|result|null|
+13:11:55.0 (463262590)|STATEMENT_EXECUTE|[63]
+13:11:55.0 (463284068)|HEAP_ALLOCATE|[17]|Bytes:5
+13:11:55.0 (463299505)|VARIABLE_ASSIGNMENT|[17]|acc|null|
+13:11:55.0 (463305301)|STATEMENT_EXECUTE|[88]
+13:11:55.0 (463380294)|DML_BEGIN|[88]|Op:Update|Type:Account|Rows:10
+13:11:55.0 (463411583)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:44
+13:11:55.0 (478268144)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+13:11:55.0 (478288504)|DUPLICATE_DETECTION_BEGIN
+13:11:55.0 (478338408)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bm36000000pmhL|DuplicateRuleName:Standard Account duplicate rule|DmlType:UPDATE
+13:11:55.0 (478343971)|DUPLICATE_DETECTION_END
+13:11:55.0 (478404694)|CODE_UNIT_FINISHED|DuplicateDetector
+13:11:55.0 (523961935)|DML_END|[88]
+13:11:55.0 (524003235)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:44
+13:11:55.0 (524035750)|CODE_UNIT_FINISHED|BatchLatLongGenerator
+13:11:55.0 (525192152)|EXECUTION_FINISHED

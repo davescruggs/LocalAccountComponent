@@ -1,0 +1,15 @@
+<aura:component controller="GeoAccountAgentControllerExtension" >
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+	<aura:attribute name="account" type="Account"/>
+    <aura:attribute name="isClaimable" type="Boolean" />
+
+	<div class="listItemLeft">
+		<a href="{! '#/sObject/' + v.account.Id + '/view'}">{!v.account.Name}</a>
+	</div>
+	<aura:if isTrue="{!v.isClaimable}" >
+		<ui:button class="listButtonRight" aura:id="claimbutton" label="Claim" press="{!c.claimAccount}"/>
+        <aura:set attribute="else">
+            <ui:button class="listButtonRight" aura:id="editbutton" label="Edit" press="{!c.editAccount}"/>
+        </aura:set>
+	</aura:if>
+</aura:component>
